@@ -5,7 +5,7 @@ ENTER
 DELAY 500
 STRING start "" https://www.youtube.com/watch?v=dQw4w9WgXcQ
 ENTER
-DELAY 2000
+DELAY 3000
 HOME
 DELAY 200
 STRING f
